@@ -2,11 +2,12 @@
 End-to-end analysis of Google Ads campaigns: cleaned and processed raw data in Excel and SQL, built interactive dashboards in Tableau, and automated analysis using Python with pandas, seaborn, and plotly. This project highlights data cleaning, visualization, and actionable insights for marketing performance optimization.
 
 
--- Raw Data :
-              https://www.kaggle.com/datasets/nayakganesh007/google-ads-sales-dataset
+Raw Data : https://www.kaggle.com/datasets/nayakganesh007/google-ads-sales-dataset
 
--- Sql code to Clean 
-                   select * from messy_googleads;
+Sql code to Clean 
+                  
+ /*
+ select * from messy_googleads;
 
  -- check for data types 
     SELECT column_name, data_type 
@@ -204,7 +205,7 @@ select * from google_ads;
 select * from 
   ( select *, row_number() over(partition by Ad_ID) as 'rank' from google_ads) as t
 where t.rank >1;
-
+*/
 
 
 
