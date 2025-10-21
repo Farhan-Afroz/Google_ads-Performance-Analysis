@@ -208,6 +208,8 @@ Raw Data : https://www.kaggle.com/datasets/nayakganesh007/google-ads-sales-datas
 
 
 
+-- Tableau Dashboard 
+        <img width="1778" height="1202" alt="Dashboard 1" src="https://github.com/user-attachments/assets/15b413ec-56d7-443d-94cc-accde31b5a1a" />
 
 
 					
